@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        >
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/agred"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#710a0e"
+            android:layout_gravity="center"
+            android:gravity="clip_horizontal"
+            android:layout_marginLeft="6dp"
+            android:textSize="12dp"
+            android:text="AG - Aggarwal Gonzalec is a music company that sells all kinds of music records. It is rapidly growing company since 2018. We have great amount of music collections in this app where you can enjoy anytime." />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#710a0e"
+        android:layout_gravity="center"
+        android:gravity="clip_horizontal"
+        android:layout_marginTop="40dp"
+        android:textSize="12dp"
+        android:text="When it comes to music, we believe that you deserve the best. In today's fast pacing life music has become most important part of our life. So, we have added all kinds of musics where you can download and play the songs online and keep yourself in relax mode." />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#710a0e"
+        android:layout_marginTop="330dp"
+        android:layout_gravity="center"
+        android:textSize="12dp"
+        android:text="Copyright (c) 2019. All Rights are Reserved" />
+</LinearLayout>

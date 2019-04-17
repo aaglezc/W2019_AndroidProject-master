@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#710a0e"
+        android:layout_gravity="center"
+        android:gravity="clip_horizontal"
+        android:textSize="14dp"
+        android:text="AG App is designed to explore our Music catalogue and buy
+items.
+
+
+Instructions:
+
+Select Records item from Menu.
+
+Browse Albums list and select desired record.
+
+Add to Shopping Cart the selected record.
+
+Select another Item by returning to the Records
+list or go Menu to Check Out.
+
+Select Check Out item from menu.
+
+The list of items selected appears.
+
+Remove an element by sliding the row to the left.
+
+Place Order to verify the items to buy and total cost.
+
+Provide the Shipping Information and confirm to place the order." />
+
+
+</LinearLayout>
