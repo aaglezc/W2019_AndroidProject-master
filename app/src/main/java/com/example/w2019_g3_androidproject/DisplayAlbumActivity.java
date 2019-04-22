@@ -55,20 +55,15 @@ public class DisplayAlbumActivity extends AppCompatActivity {
     public void AddItem(View view)
     {
 
+        Integer tot = customer._shoppingCart.size();
 
-        ShoppingCart cartItem = new ShoppingCart(1,  product, 1);
+
+        ShoppingCart cartItem = new ShoppingCart(tot+1,  product, 1);
 
         cartItem.addCartItem(customer);
-            int tot = customer._shoppingCart.size();
+        tot = customer._shoppingCart.size();
+
         Toast.makeText(DisplayAlbumActivity.this, "Album Added to Cart (" + tot+")", Toast.LENGTH_SHORT).show();
-
-
-
-
-    }
-
-    public void GoAlbums(View view)
-    {
 
         Intent mIntent = new Intent(DisplayAlbumActivity.this, MainActivity.class);
         //Set value to pass on next activity
@@ -77,9 +72,7 @@ public class DisplayAlbumActivity extends AppCompatActivity {
         startActivity(mIntent);
 
 
-
-
-
     }
+
 
 }

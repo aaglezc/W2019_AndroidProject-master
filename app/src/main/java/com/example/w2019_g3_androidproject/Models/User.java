@@ -1,15 +1,21 @@
 package com.example.w2019_g3_androidproject.Models;
 
+import android.support.annotation.NonNull;
+
+
 public class User
 {
+
+    @NonNull
     private String _userId;
+
     private String _password;
     private String _loginStatus;
 
-    public User()
-    {
+   public User()
+   {
 
-    }
+   }
 
     public User(String _userId, String _password, String _loginStatus) {
         this._userId = _userId;

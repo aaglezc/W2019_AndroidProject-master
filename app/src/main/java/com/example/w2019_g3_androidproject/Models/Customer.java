@@ -15,7 +15,7 @@ public class Customer extends User implements Serializable
 
 /*
     public Customer(String _custName, String _address, String _email, String _creditCardInfo, String _shippingInfo, ArrayList<ShoppingCart> _shoppingCart, ArrayList<Order> _orders) {
-        this._custName = _custName;
+        thisz._custName = _custName;
         this._address = _address;
         this._email = _email;
         this._creditCardInfo = _creditCardInfo;

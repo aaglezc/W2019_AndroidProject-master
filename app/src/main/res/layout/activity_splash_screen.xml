@@ -22,7 +22,7 @@
         android:textColor="#710a0e"
         android:layout_gravity="center"
         android:textSize="16dp"
-        android:text="AG (Aggarwal - Gonzalec) Music Company" />
+        android:text="AG (Aggarwal - Gonzalez) Music Company" />
 
     <TextView
         android:layout_width="wrap_content"

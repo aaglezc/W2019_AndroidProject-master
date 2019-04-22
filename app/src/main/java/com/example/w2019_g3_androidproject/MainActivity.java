@@ -52,12 +52,12 @@ public class MainActivity extends AppCompatActivity {
         //Aqui configurar des dela clase productos@@!
 
         products = new Product[10];
-        products[0] = new Product( 1, "Stiches", 10.0, "Mother Mother", 2008, "08 Bit By Bit", "mm.jpg");
+        products[0] = new Product( 1, "Stiches          ", 10.0, "Mother Mother", 2008, "08 Bit By Bit", "mm.jpg");
         products[1] = new Product( 2, "Elvis 2nd to None", 12.0, "Elvis Presley", 2012, "elvis2nd.jpg", "mm.jpg");
-        products[2] = new Product( 3, "Guns&Roses", 12.0, "Guns&Roses", 1985, "gunr3.jpg", "mm.jpg");
-        products[3] = new Product( 4, "John Denver definitive all-time GH", 9.0, "John Denver", 1969, "johndenver.jpg", "mm.jpg");
-        products[4] = new Product( 5, "Led Zeppelin II", 12.0, "Led Zeppelin", 1976, "ledzv.jpg", "mm.jpg");
-        products[5] = new Product( 6, "The Resistance", 12.0, "Muse", 2014, "mm.jpg", "mm.jpg");
+        products[2] = new Product( 3, "Guns&Roses       ", 12.0, "Guns&Roses", 1985, "gunr3.jpg", "mm.jpg");
+        products[3] = new Product( 4, "Definitive all   ", 9.10, "John Denver", 1969, "johndenver.jpg", "mm.jpg");
+        products[4] = new Product( 5, "Led Zeppelin II  ", 12.0, "Led Zeppelin", 1976, "ledzv.jpg", "mm.jpg");
+        products[5] = new Product( 6, "The Resistance   ", 12.0, "Muse", 2014, "mm.jpg", "mm.jpg");
         products[6] = new Product( 7, "Romance", 12.0, "Rod Steward", 2014, "rods.jpg", "mm.jpg");
 
         this.customer = (Customer) getIntent().getSerializableExtra("customer");
@@ -116,14 +116,23 @@ public class MainActivity extends AppCompatActivity {
                 Intent mIntent2 = new Intent(MainActivity.this, ContactActivity.class);
                 startActivity(mIntent2);
 
-
-
                 break;
             case R.id.mnuAbout:
                 msg = "About";
                 Intent mIntent3 = new Intent(MainActivity.this, AboutActivity.class);
                 startActivity(mIntent3);
 
+            case R.id.mnuOrders:
+                msg = "Check Out";
+
+
+                //Intent mIntent4 = new Intent(MainActivity.this, CheckOutActivity.class);
+                //startActivity(mIntent4);
+                Intent mIntent4 = new Intent(MainActivity.this, CheckOutActivity.class);
+                //Set value to pass on next activity
+
+                mIntent4.putExtra("customer", customer);
+                startActivity(mIntent4);
 
                 break;
             case R.id.mnuLogout:
@@ -142,7 +151,7 @@ public class MainActivity extends AppCompatActivity {
                 this);
 
         // set title
-        alertDialogBuilder.setTitle("Your Title");
+        alertDialogBuilder.setTitle("Log Out App");
 
         // set dialog message
         alertDialogBuilder

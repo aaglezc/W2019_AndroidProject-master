@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">W2019_G3_AndroidProject</string>
+    <string-array name="android_version">
+        <item>CupCake</item>
+        <item>Donut</item>
+        <item>Eclair</item>
+        <item>Proyo</item>
+        <item>Gingerbread</item>
+        <item>MoneyComb</item>
+        <item>Ice Cream</item>
+        <item>JellyBEam</item>
+        <item>KitKat</item>
+        <item>LollyPop</item>
+        <item>Marshmellow</item>
+        <item>Nougat</item>
+        <item>Oreo</item>
+        <item>Android P.</item>
+    </string-array>
 </resources>
