@@ -138,6 +138,7 @@ public class MainActivity extends AppCompatActivity {
             case R.id.mnuLogout:
                 msg = "Logout";
                 showDialog();
+                Intent mIntent5 = new Intent(MainActivity.this, LoginActivity.class);
                 break;
         }
 
